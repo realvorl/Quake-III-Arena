@@ -969,7 +969,7 @@ TODO: the Mac port seems stable, but outputs a bunch of warnings..
 	* code/unix/Makefile: updated install targets and VERSION.
 
 	* Win32: build from SOS snapshot.
-	Note: Unix CR/LF in *.dsw/*.dsp fucks up MSVC++.
+	Note: Unix CR/LF in *.dsw/*.dsp messes up MSVC++.
 
 2001-02-02  Bernd Kreimeier  <bk@lokigames.com>
 
@@ -1534,7 +1534,7 @@ TODO: the Mac port seems stable, but outputs a bunch of warnings..
 	TODO: profile?
 	
 	* code/unix/Makefile (ai_vcmd.o): added to game DLL linkage. 
-	How the fuck did this happen?
+	How the did this happen?
 	DONE: "qagamei386.so: undefined symbol: BotVoiceChat_Defend"
 
 	* TEST:  +set vm_ui 2 (vm_x86, not interpreter). Breaks!
@@ -2783,7 +2783,7 @@ TODO: the Mac port seems stable, but outputs a bunch of warnings..
 	Note: forgot to check in the ft2/ headers themselves, but they
 	are not used in the current codebase anyway. Are added in next
 	dump. Also there is use of CVS/CVS-like $Keyword$ patterns in
-	some files, and between their revisions and ours we fuck this up.
+	some files, and between their revisions and ours we mess this up.
 	Also, id ZIP files create write protected sources, have to do
 	chmod -R a+w Quake3/ to work and overwrite files.
 

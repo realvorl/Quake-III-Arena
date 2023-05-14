@@ -470,7 +470,7 @@ void SVC_RemoteCommand( netadr_t from, msg_t *msg ) {
 		// https://zerowing.idsoftware.com/bugzilla/show_bug.cgi?id=543
 		// get the command directly, "rcon <pass> <command>" to avoid quoting issues
 		// extract the command by walking
-		// since the cmd formatting can fuckup (amount of spaces), using a dumb step by step parsing
+		// since the cmd formatting can mess up (amount of spaces), using a dumb step by step parsing
 		cmd_aux = Cmd_Cmd();
 		cmd_aux+=4;
 		while(cmd_aux[0]==' ')

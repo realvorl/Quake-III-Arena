@@ -292,7 +292,7 @@ void AAS_FixMapBrush(mapbrush_t *brush)
 		} //end for
 	} //end for
 
-	//NOW close the fucking brush!!
+	//NOW close the brush!!
 	for (i = 0; i < 3; i++)
 	{
 		if (brush->mins[i] < -MAX_MAP_BOUNDS)

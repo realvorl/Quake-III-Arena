@@ -2360,7 +2360,7 @@ void DrawPatchMesh( patchMesh_t *pm, bool bPoints, bool bShade = false ) {
   }
 
 
-  // FIXME: this bend painting code needs to be rolled up significantly as it is a cluster fuck right now
+  // FIXME: this bend painting code needs to be rolled up significantly as it is a total mess right now
   if (bPoints && (g_qeglobals.d_select_mode == sel_curvepoint || g_qeglobals.d_select_mode == sel_area || g_bPatchBendMode || g_bPatchInsertMode))
   {
     bOverlay = false;

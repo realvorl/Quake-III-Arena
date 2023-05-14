@@ -677,7 +677,7 @@ void MoveSelection (vec3_t move)
 			for (i=0 ; i<3 ; i++)
 				if (b->mins[i] > b->maxs[i]
 				|| b->maxs[i] - b->mins[i] > MAX_BRUSH_SIZE)
-					break;	// dragged backwards or fucked up
+					break;	// dragged backwards or messed up
 			if (i != 3)
 				break;
 			if (b->patchBrush)

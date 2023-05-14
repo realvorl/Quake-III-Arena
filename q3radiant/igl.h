@@ -44,7 +44,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 // merging in for RC
 //
 // Revision 1.5  2000/01/11 22:14:48  ttimo
-// cleaning up after merging and thinks badly fucked up
+// cleaning up after merging and thinks badly messed up
 //
 // Revision 1.2  2000/01/09 04:39:14  ttimo
 // added some bindings to the GL table

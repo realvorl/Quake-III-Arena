@@ -127,7 +127,7 @@ void ExtendBounds(vec3_t v, vec3_t &vMin, vec3_t &vMax)
 
 
 
-// FIXME: this code is a TOTAL clusterfuck
+// FIXME: this code is a TOTAL mess
 //
 void LoadModel(const char *pLocation, eclass_t *e, vec3_t &vMin, vec3_t &vMax, entitymodel *&pModel, const char *pSkin)
 {

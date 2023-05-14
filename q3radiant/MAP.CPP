@@ -58,7 +58,7 @@ void DupLists()
 
   Cross map selection saving
 
-  this could fuck up if you have only part of a complex entity selected...
+  this could mess up if you have only part of a complex entity selected...
 =============================================================
 */
 

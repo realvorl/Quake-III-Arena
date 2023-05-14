@@ -1507,7 +1507,7 @@ float Item_Slider_ThumbPosition(itemDef_t *item) {
 	//value /= (editDef->maxVal - editDef->minVal);
 	value *= SLIDER_WIDTH;
 	x += value;
-	// vm fuckage
+	// vm weirdstuff
 	//x = x + (((float)value / editDef->maxVal) * SLIDER_WIDTH);
 	return x;
 }
@@ -2352,7 +2352,7 @@ qboolean Item_Slider_HandleKey(itemDef_t *item, int key, qboolean down) {
 					work = DC->cursorx - x;
 					value = work / width;
 					value *= (editDef->maxVal - editDef->minVal);
-					// vm fuckage
+					// vm weirdstuff
 					// value = (((float)(DC->cursorx - x)/ SLIDER_WIDTH) * (editDef->maxVal - editDef->minVal));
 					value += editDef->minVal;
 					DC->setCVar(item->cvar, va("%f", value));
@@ -2988,7 +2988,7 @@ void Item_Text_Paint(itemDef_t *item) {
 
 	Item_TextColor(item, &color);
 
-	//FIXME: this is a fucking mess
+	//FIXME: this is a mess
 /*
 	adjust = 0;
 	if (item->textStyle == ITEM_TEXTSTYLE_OUTLINED || item->textStyle == ITEM_TEXTSTYLE_OUTLINESHADOWED) {

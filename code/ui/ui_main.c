@@ -5370,7 +5370,7 @@ void Text_PaintCenter_AutoWrapped(float x, float y, float xmax, float ystep, flo
 		if (width > xmax) {
 			if (s1==s2)
 			{
-				// fuck, don't have a clean cut, we'll overflow
+				// don't have a clean cut, we'll overflow
 				s2 = s3;
 			}
 			*s2 = '\0';
